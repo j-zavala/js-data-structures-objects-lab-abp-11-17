@@ -5,7 +5,8 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   //for (const key in driver) {
   const newObj = {...driver};
     newObj[key] = value;
-    //console.log(driver);
+    console.log(driver);
+    console.log(newObj);
     return newObj;
   //}
 }
